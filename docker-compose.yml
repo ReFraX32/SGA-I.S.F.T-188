@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: isft188_web
+    restart: always
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      - DEBUG=${DEBUG:-False}
+      - SECRET_KEY=${SECRET_KEY:-django-insecure-prod-key-isft188-general-rodriguez}
+      - DB_ENGINE=postgresql
+      - DB_NAME=${DB_NAME:-sistema_alumnos_db}
+      - DB_USER=${DB_USER:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres_password_188}
+      - DB_HOST=db
+      - DB_PORT=5432
+      - ENABLE_ADMIN=${ENABLE_ADMIN:-False}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
+
+  db:
+    image: postgres:16-alpine
+    container_name: isft188_postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=${DB_NAME:-sistema_alumnos_db}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-postgres_password_188}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  static_volume:
+  media_volume:

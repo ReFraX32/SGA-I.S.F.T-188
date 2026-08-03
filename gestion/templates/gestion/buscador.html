@@ -1,0 +1,357 @@
+{% extends 'gestion/base.html' %}
+
+{% block title %}Buscador de Alumnos DNI — ISFT 188{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- Header Section -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+            <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight flex items-center gap-2">
+                <span class="material-symbols-outlined text-indigo-500 text-3xl">person_search</span>
+                Buscador de Alumnos por DNI / Nombre
+            </h2>
+            <p class="text-sm text-slate-400 mt-1">
+                Consulte la trayectoria y estado académico integral de los estudiantes del instituto.
+            </p>
+        </div>
+        <div class="flex items-center gap-3">
+            <div class="glass-card px-4 py-2.5 rounded-xl flex items-center gap-3">
+                <span class="material-symbols-outlined text-indigo-500 text-2xl">group</span>
+                <div>
+                    <div class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Total Alumnos</div>
+                    <div class="text-lg font-black text-indigo-500 leading-none mt-0.5">{{ total_alumnos_sistema }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search & Filters Panel (Formulario POST Seguro con CSRF) -->
+    <div class="glass-card p-4 md:p-6 rounded-2xl shadow-xl space-y-4">
+        <form method="POST" action="{% url 'gestion:buscador' %}" class="space-y-4" id="buscadorForm">
+            {% csrf_token %}
+            
+            <!-- Fila Principal: Búsqueda por Texto -->
+            <div class="relative">
+                <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+                <input 
+                    type="text" 
+                    name="q" 
+                    id="searchInput" 
+                    value="{{ query }}"
+                    placeholder="Escriba DNI, Nombre, Apellido o Legajo del alumno..."
+                    class="w-full rounded-xl pl-11 pr-4 py-3 text-sm font-semibold shadow-inner focus:ring-2 focus:ring-indigo-500"
+                    autocomplete="off"
+                />
+            </div>
+
+            <!-- Fila de Filtros Combinados -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+                
+                <!-- 1. Filtro Carrera -->
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Carrera</label>
+                    <select name="carrera" class="w-full rounded-xl px-3 py-2.5 text-xs font-semibold cursor-pointer">
+                        <option value="">Todas las Carreras</option>
+                        {% for c in carreras %}
+                            <option value="{{ c.codigo_carrera }}" {% if c.codigo_carrera == carrera_id %}selected{% endif %}>
+                                {{ c.nombre_carrera }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <!-- 2. Filtro Situación Académica -->
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Condición Académica</label>
+                    <select name="situacion" class="w-full rounded-xl px-3 py-2.5 text-xs font-semibold cursor-pointer">
+                        <option value="">Todas las Situaciones</option>
+                        <option value="Promocionado" {% if situacion_filtro == 'Promocionado' %}selected{% endif %}>Promocionados</option>
+                        <option value="Final" {% if situacion_filtro == 'Final' %}selected{% endif %}>A Final</option>
+                        <option value="Regular" {% if situacion_filtro == 'Regular' %}selected{% endif %}>Regulares</option>
+                        <option value="Libre" {% if situacion_filtro == 'Libre' %}selected{% endif %}>Libres / Recursa</option>
+                    </select>
+                </div>
+
+                <!-- 3. Filtro Asistencia -->
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Rango Asistencia %</label>
+                    <select name="asistencia" class="w-full rounded-xl px-3 py-2.5 text-xs font-semibold cursor-pointer">
+                        <option value="">Cualquier % Asistencia</option>
+                        <option value="alta" {% if asistencia_filtro == 'alta' %}selected{% endif %}>≥ 80% (Buena Asistencia)</option>
+                        <option value="media" {% if asistencia_filtro == 'media' %}selected{% endif %}>60% a 79% (Asistencia Media)</option>
+                        <option value="baja" {% if asistencia_filtro == 'baja' %}selected{% endif %}>&lt; 60% (Riesgo / Baja)</option>
+                    </select>
+                </div>
+
+                <!-- 4. Filtro Ordenamiento -->
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Ordenar Por</label>
+                    <select name="orden" class="w-full rounded-xl px-3 py-2.5 text-xs font-semibold cursor-pointer">
+                        <option value="apellido" {% if orden_filtro == 'apellido' %}selected{% endif %}>Apellido (A-Z)</option>
+                        <option value="nombre" {% if orden_filtro == 'nombre' %}selected{% endif %}>Nombre (A-Z)</option>
+                        <option value="asistencia_desc" {% if orden_filtro == 'asistencia_desc' %}selected{% endif %}>Mayor Asistencia %</option>
+                        <option value="asistencia_asc" {% if orden_filtro == 'asistencia_asc' %}selected{% endif %}>Menor Asistencia %</option>
+                        <option value="promocionadas_desc" {% if orden_filtro == 'promocionadas_desc' %}selected{% endif %}>Más Promocionadas</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Botones de Acción -->
+            <div class="flex items-center justify-end gap-2 pt-2 border-t border-white/10">
+                {% if query or carrera_id or situacion_filtro or asistencia_filtro or orden_filtro != 'apellido' %}
+                <button type="button" onclick="limpiarFiltros()" class="bg-slate-500/20 hover:bg-slate-500/30 text-slate-300 font-semibold py-2.5 px-4 rounded-xl transition-all flex items-center gap-1 text-xs cursor-pointer" title="Restablecer Filtros">
+                    <span class="material-symbols-outlined text-sm">restart_alt</span>
+                    <span>Limpiar Filtros</span>
+                </button>
+                {% endif %}
+
+                <button type="submit" class="bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-600 text-white font-bold py-2.5 px-6 rounded-xl shadow-lg shadow-indigo-600/30 transition-all flex items-center justify-center gap-2 text-xs cursor-pointer">
+                    <span class="material-symbols-outlined text-sm">filter_list</span>
+                    <span>Aplicar Filtros</span>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Results Table Container -->
+    <div class="glass-card rounded-2xl overflow-hidden shadow-2xl">
+        <div class="px-6 py-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-2">
+            <h3 class="text-base font-bold flex items-center gap-2">
+                <span class="material-symbols-outlined text-indigo-500">format_list_bulleted</span>
+                Resultados Obtenidos ({{ total_resultados }})
+            </h3>
+            <span class="text-xs text-slate-400">Deslice horizontalmente la tabla si es necesario</span>
+        </div>
+
+        {% if alumnos_list %}
+        <!-- Responsive Full Width Scroll Container -->
+        <div class="w-full overflow-x-auto">
+            <table class="w-full text-left text-sm min-w-[950px]">
+                <thead class="bg-slate-900/40 uppercase text-[11px] tracking-wider font-bold border-b border-white/10 opacity-80">
+                    <tr>
+                        <th class="py-4 px-5 min-w-[140px]">DNI / Legajo</th>
+                        <th class="py-4 px-5 min-w-[240px]">Estudiante</th>
+                        <th class="py-4 px-5 min-w-[260px]">Carrera(s)</th>
+                        <th class="py-4 px-5 text-center min-w-[180px]">Situaciones Cursada</th>
+                        <th class="py-4 px-5 text-center min-w-[110px]">Asistencia %</th>
+                        <th class="py-4 px-5 text-center min-w-[160px]">Acción</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-white/5 font-medium">
+                    {% for item in alumnos_list %}
+                    <tr class="hover:bg-indigo-500/5 transition-colors group">
+                        <td class="py-4 px-5 font-mono text-indigo-500 font-bold whitespace-nowrap">
+                            <div>{{ item.alumno.persona.dni }}</div>
+                            <div class="text-xs text-slate-400 font-sans font-normal">{{ item.alumno.legajo }}</div>
+                        </td>
+                        <td class="py-4 px-5">
+                            <div class="font-bold text-base group-hover:text-indigo-500 transition-colors">
+                                {{ item.alumno.persona.apellido }}, {{ item.alumno.persona.nombre }}
+                            </div>
+                            <div class="text-xs text-slate-400">
+                                {{ item.alumno.persona.mail|default:"Sin mail" }}
+                            </div>
+                        </td>
+                        <td class="py-4 px-5">
+                            <span class="text-xs px-3 py-1 rounded-lg bg-indigo-500/15 text-indigo-500 border border-indigo-500/30 font-semibold inline-block">
+                                {{ item.carreras }}
+                            </span>
+                        </td>
+                        <td class="py-4 px-5 text-center">
+                            <div class="inline-flex items-center justify-center gap-1.5">
+                                <span class="px-2 py-0.5 rounded text-xs bg-emerald-500/20 text-emerald-500 border border-emerald-500/30 font-bold" title="Promocionadas">{{ item.promocionadas }} Prom.</span>
+                                <span class="px-2 py-0.5 rounded text-xs bg-amber-500/20 text-amber-500 border border-amber-500/30 font-bold" title="Finales">{{ item.finales }} Final</span>
+                                <span class="px-2 py-0.5 rounded text-xs bg-slate-700/60 text-slate-300 font-bold" title="Total">{{ item.total_cursadas }} Total</span>
+                            </div>
+                        </td>
+                        <td class="py-4 px-5 text-center font-bold text-base">
+                            <span class="{% if item.asistencia_avg >= 80 %}text-emerald-500{% elif item.asistencia_avg >= 60 %}text-amber-500{% else %}text-rose-500{% endif %}">
+                                {{ item.asistencia_avg }}%
+                            </span>
+                        </td>
+                        <td class="py-4 px-5 text-center whitespace-nowrap">
+                            <button 
+                                onclick="cargarEstadoAcademico('{{ item.alumno.persona.dni }}')"
+                                class="inline-flex items-center gap-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold py-2.5 px-4 rounded-xl shadow-md shadow-indigo-600/20 transition-all hover:scale-105 cursor-pointer"
+                            >
+                                <span class="material-symbols-outlined text-sm">badge</span>
+                                <span>Estado Académico</span>
+                            </button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="text-center py-12 px-4">
+            <span class="material-symbols-outlined text-5xl text-slate-400 mb-2">search_off</span>
+            <h4 class="text-lg font-bold">No se encontraron estudiantes</h4>
+            <p class="text-sm text-slate-400 max-w-md mx-auto mt-1">
+                Intente ajustar los filtros de búsqueda o el DNI ingresado.
+            </p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- MODAL ESTADO ACADÉMICO DETALLADO -->
+<div id="modalEstado" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md">
+    <div class="glass-modal w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl max-h-[90vh] flex flex-col animate-in fade-in duration-200">
+        
+        <!-- Modal Header -->
+        <div class="px-6 py-4 border-b border-white/10 flex items-center justify-between bg-slate-900/40">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-black text-xl">
+                    <span class="material-symbols-outlined">assignment_ind</span>
+                </div>
+                <div>
+                    <h3 id="modalNombreAlumno" class="text-lg font-black">Cargando datos...</h3>
+                    <p id="modalDniLegajo" class="text-xs text-indigo-400 font-mono">DNI: - | Legajo: -</p>
+                </div>
+            </div>
+            <button onclick="cerrarModal()" class="text-slate-400 hover:text-white p-2 rounded-lg hover:bg-white/10 transition-colors cursor-pointer">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+
+        <!-- Modal Content Body -->
+        <div id="modalContent" class="p-6 overflow-y-auto space-y-6 flex-1">
+            <!-- Spinner placeholder -->
+            <div class="text-center py-12">
+                <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-indigo-500 border-t-transparent"></div>
+                <p class="text-sm text-slate-400 mt-3 font-medium">Obteniendo expediente del estudiante desde la base de datos...</p>
+            </div>
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="px-6 py-4 border-t border-white/10 flex items-center justify-between bg-slate-900/40">
+            <a id="btnImprimirAnalitico" href="#" target="_blank" class="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold py-2.5 px-4 rounded-xl border border-white/10 transition-all">
+                <span class="material-symbols-outlined text-sm">print</span>
+                <span>Imprimir / Exportar Constancia</span>
+            </a>
+            <button onclick="cerrarModal()" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold py-2.5 px-5 rounded-xl transition-all cursor-pointer">
+                Cerrar
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    function limpiarFiltros() {
+        const form = document.getElementById('buscadorForm');
+        form.querySelectorAll('input[type="text"]').forEach(i => i.value = '');
+        form.querySelectorAll('select').forEach(s => s.selectedIndex = 0);
+        form.submit();
+    }
+
+    function cargarEstadoAcademico(dni) {
+        const modal = document.getElementById('modalEstado');
+        const modalContent = document.getElementById('modalContent');
+        const modalNombre = document.getElementById('modalNombreAlumno');
+        const modalDniLegajo = document.getElementById('modalDniLegajo');
+        const btnImprimir = document.getElementById('btnImprimirAnalitico');
+
+        btnImprimir.href = `/alumno/${dni}/imprimir/`;
+        modal.classList.remove('hidden');
+
+        fetch(`/api/alumno/${dni}/`)
+            .then(res => res.json())
+            .then(data => {
+                modalNombre.innerText = data.personal.nombre_completo;
+                modalDniLegajo.innerText = `DNI: ${data.personal.dni} | Legajo: ${data.personal.legajo} | Mail: ${data.personal.mail}`;
+
+                let carrerasHtml = data.resumen_academico.carreras.map(c => 
+                    `<span class="px-3 py-1 rounded-lg bg-indigo-500/20 text-indigo-500 border border-indigo-500/30 text-xs font-bold">${c}</span>`
+                ).join(' ');
+
+                let cursadasRows = data.cursadas.map(c => {
+                    let badgeClass = 'bg-slate-700 text-slate-300';
+                    if (c.situacion === 'Promocionado') badgeClass = 'bg-emerald-500/20 text-emerald-500 border border-emerald-500/40 font-bold';
+                    else if (c.situacion === 'Final') badgeClass = 'bg-amber-500/20 text-amber-500 border border-amber-500/40 font-bold';
+                    else if (c.situacion === 'Libre') badgeClass = 'bg-rose-500/20 text-rose-500 border border-rose-500/40 font-bold';
+
+                    let notaFinalStr = c.nota_final !== null ? `<span class="font-extrabold text-indigo-500 text-base">${c.nota_final}</span>` : '<span class="text-slate-400 text-xs">Sin Cargar</span>';
+
+                    return `
+                        <tr class="hover:bg-indigo-500/5">
+                            <td class="py-3.5 px-4">
+                                <div class="font-bold text-sm">${c.materia}</div>
+                                <div class="text-xs text-slate-400">${c.carrera} (${c.anio_carrera}° Año)</div>
+                            </td>
+                            <td class="py-3.5 px-4 text-xs text-slate-400">${c.docentes}</td>
+                            <td class="py-3.5 px-4 text-center font-semibold text-xs">${c.asistencia}%</td>
+                            <td class="py-3.5 px-4 text-center">
+                                <span class="px-2.5 py-1 rounded-full text-xs ${badgeClass}">${c.situacion}</span>
+                            </td>
+                            <td class="py-3.5 px-4 text-center font-mono">${notaFinalStr}</td>
+                        </tr>
+                    `;
+                }).join('');
+
+                modalContent.innerHTML = `
+                    <!-- Stat Highlights -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                        <div class="glass-card p-4 rounded-xl text-center">
+                            <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Promedio Notas</div>
+                            <div class="text-2xl font-black text-indigo-500 mt-1">${data.resumen_academico.promedio_notas}</div>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl text-center">
+                            <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Asistencia Media</div>
+                            <div class="text-2xl font-black text-emerald-500 mt-1">${data.resumen_academico.asistencia_promedio}%</div>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl text-center">
+                            <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Promocionadas</div>
+                            <div class="text-2xl font-black text-emerald-500 mt-1">${data.resumen_academico.aprobadas_promocionadas}</div>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl text-center">
+                            <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Total Cursadas</div>
+                            <div class="text-2xl font-black text-indigo-500 mt-1">${data.resumen_academico.total_materias_cursadas}</div>
+                        </div>
+                    </div>
+
+                    <!-- Carrera badges -->
+                    <div class="flex items-center gap-2 flex-wrap">
+                        <span class="text-xs text-slate-400 font-bold uppercase tracking-wider">Carrera(s):</span>
+                        ${carrerasHtml}
+                    </div>
+
+                    <!-- Detailed Table of Cursadas -->
+                    <div class="glass-card rounded-xl overflow-hidden border border-white/10">
+                        <div class="px-4 py-3 bg-slate-900/30 border-b border-white/10 font-bold text-sm flex items-center justify-between">
+                            <span>Detalle por Espacio Curricular / Materia</span>
+                            <span class="text-xs text-slate-400 font-normal">Trayectoria Estudiantil</span>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left text-sm">
+                                <thead class="bg-slate-950/40 text-slate-400 uppercase text-[11px] tracking-wider font-semibold border-b border-white/10">
+                                    <tr>
+                                        <th class="py-3 px-4">Materia / Carrera</th>
+                                        <th class="py-3 px-4">Docente a Cargo</th>
+                                        <th class="py-3 px-4 text-center">Asistencia</th>
+                                        <th class="py-3 px-4 text-center">Condición</th>
+                                        <th class="py-3 px-4 text-center">Nota Final</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-white/5 font-medium">
+                                    ${cursadasRows || '<tr><td colspan="5" class="py-6 text-center text-slate-400">Sin cursadas registradas.</td></tr>'}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+            })
+            .catch(err => {
+                modalContent.innerHTML = `<div class="text-rose-400 text-center py-8">Error al cargar datos del alumno: ${err}</div>`;
+            });
+    }
+
+    function cerrarModal() {
+        document.getElementById('modalEstado').classList.add('hidden');
+    }
+</script>
+{% endblock %}

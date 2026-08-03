@@ -1,0 +1,7337 @@
+[
+{
+  "model": "gestion.persona",
+  "pk": 1,
+  "fields": {
+    "dni": "DOC_5344317",
+    "nombre": "D`Amico",
+    "apellido": "R.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 2,
+  "fields": {
+    "dni": "DOC_6423336",
+    "nombre": "Docente",
+    "apellido": "Taborda",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 3,
+  "fields": {
+    "dni": "DOC_1762696",
+    "nombre": "Sala",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 4,
+  "fields": {
+    "dni": "DOC_7717374",
+    "nombre": "Mario",
+    "apellido": "Torres",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 5,
+  "fields": {
+    "dni": "DOC_2385446",
+    "nombre": "Siroti",
+    "apellido": "S.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 6,
+  "fields": {
+    "dni": "DOC_6993461",
+    "nombre": "Issa",
+    "apellido": "J.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 7,
+  "fields": {
+    "dni": "DOC_1622811",
+    "nombre": "Juan",
+    "apellido": "Hayden,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 8,
+  "fields": {
+    "dni": "DOC_5983446",
+    "nombre": "Grassi",
+    "apellido": "J.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 9,
+  "fields": {
+    "dni": "DOC_4721456",
+    "nombre": "Docente",
+    "apellido": "Hoffmann",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 10,
+  "fields": {
+    "dni": "DOC_3017773",
+    "nombre": "Yarza",
+    "apellido": "N.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 11,
+  "fields": {
+    "dni": "DOC_430772",
+    "nombre": "Docente",
+    "apellido": "Mosquera",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 12,
+  "fields": {
+    "dni": "DOC_2540794",
+    "nombre": "Gómez",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 13,
+  "fields": {
+    "dni": "DOC_9655715",
+    "nombre": "Luciano",
+    "apellido": "Zanolo,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 14,
+  "fields": {
+    "dni": "DOC_1506004",
+    "nombre": "Mosquera",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 15,
+  "fields": {
+    "dni": "DOC_3581102",
+    "nombre": "Russo",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 16,
+  "fields": {
+    "dni": "DOC_2132538",
+    "nombre": "Docente",
+    "apellido": "Ingreso",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 17,
+  "fields": {
+    "dni": "DOC_590107",
+    "nombre": "Docente",
+    "apellido": "3",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 18,
+  "fields": {
+    "dni": "DOC_876435",
+    "nombre": "Docente",
+    "apellido": "4",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 19,
+  "fields": {
+    "dni": "DOC_4641920",
+    "nombre": "Docente",
+    "apellido": "7",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 20,
+  "fields": {
+    "dni": "DOC_1025924",
+    "nombre": "Docente",
+    "apellido": "6",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 21,
+  "fields": {
+    "dni": "DOC_6464655",
+    "nombre": "Docente",
+    "apellido": "15",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 22,
+  "fields": {
+    "dni": "DOC_312364",
+    "nombre": "Docente",
+    "apellido": "16",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 23,
+  "fields": {
+    "dni": "DOC_2394440",
+    "nombre": "Docente",
+    "apellido": "Indigoras",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 24,
+  "fields": {
+    "dni": "DOC_7055514",
+    "nombre": "Raquel",
+    "apellido": "Ramos",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 25,
+  "fields": {
+    "dni": "DOC_7692268",
+    "nombre": "Docente",
+    "apellido": "Arnes",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 26,
+  "fields": {
+    "dni": "DOC_5779056",
+    "nombre": "Docente",
+    "apellido": "Liva",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 27,
+  "fields": {
+    "dni": "DOC_7620394",
+    "nombre": "Ana",
+    "apellido": "Livolsi,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 28,
+  "fields": {
+    "dni": "DOC_6068978",
+    "nombre": "Pedra",
+    "apellido": "Ingreso",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 29,
+  "fields": {
+    "dni": "DOC_6922763",
+    "nombre": "Docente",
+    "apellido": "Vega",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 30,
+  "fields": {
+    "dni": "DOC_952160",
+    "nombre": "Docente",
+    "apellido": "Segura",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 31,
+  "fields": {
+    "dni": "DOC_1700111",
+    "nombre": "Walter",
+    "apellido": "Barbosa",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 32,
+  "fields": {
+    "dni": "DOC_6644582",
+    "nombre": "Docente",
+    "apellido": "Dalman,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 33,
+  "fields": {
+    "dni": "DOC_7044554",
+    "nombre": "Hernan",
+    "apellido": "Salas",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 34,
+  "fields": {
+    "dni": "DOC_208475",
+    "nombre": "Docente",
+    "apellido": "Salas-Poletti",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 35,
+  "fields": {
+    "dni": "DOC_4717397",
+    "nombre": "Malena",
+    "apellido": "Noguer,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 36,
+  "fields": {
+    "dni": "DOC_8067812",
+    "nombre": "Docente",
+    "apellido": "Barbieri,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 37,
+  "fields": {
+    "dni": "DOC_2477910",
+    "nombre": "Juan",
+    "apellido": "Tedesco,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 38,
+  "fields": {
+    "dni": "DOC_7545572",
+    "nombre": "Fernando",
+    "apellido": "Cufre,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 39,
+  "fields": {
+    "dni": "DOC_5893985",
+    "nombre": "Eugenia",
+    "apellido": "Tutti,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 40,
+  "fields": {
+    "dni": "DOC_2183234",
+    "nombre": "Docente",
+    "apellido": "Goncalvez,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 41,
+  "fields": {
+    "dni": "DOC_6435828",
+    "nombre": "designar",
+    "apellido": "A",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 42,
+  "fields": {
+    "dni": "DOC_9240175",
+    "nombre": "Raquel",
+    "apellido": "Ramos,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 43,
+  "fields": {
+    "dni": "DOC_2325537",
+    "nombre": "Ojeda",
+    "apellido": "Martinez,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 44,
+  "fields": {
+    "dni": "DOC_3154905",
+    "nombre": "Nancy",
+    "apellido": "Castelli,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 45,
+  "fields": {
+    "dni": "DOC_206429",
+    "nombre": "Maria",
+    "apellido": "Coratti,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 46,
+  "fields": {
+    "dni": "DOC_9407105",
+    "nombre": "Docente",
+    "apellido": "Rebotaro",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 47,
+  "fields": {
+    "dni": "DOC_1029006",
+    "nombre": "Lopes",
+    "apellido": "Garcia",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 48,
+  "fields": {
+    "dni": "DOC_3458509",
+    "nombre": "Cardenas",
+    "apellido": "Pedra.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 49,
+  "fields": {
+    "dni": "DOC_1852114",
+    "nombre": "A.",
+    "apellido": "Rotondaro",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 50,
+  "fields": {
+    "dni": "DOC_3333415",
+    "nombre": "Docente",
+    "apellido": "Falasca",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 51,
+  "fields": {
+    "dni": "DOC_689102",
+    "nombre": "I.",
+    "apellido": "Pomar",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 52,
+  "fields": {
+    "dni": "DOC_2699629",
+    "nombre": "Docente",
+    "apellido": "Castelli",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 53,
+  "fields": {
+    "dni": "DOC_2128452",
+    "nombre": "Docente",
+    "apellido": "Siroti",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 54,
+  "fields": {
+    "dni": "DOC_7587075",
+    "nombre": "Docente",
+    "apellido": "Odato",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 55,
+  "fields": {
+    "dni": "40375138",
+    "nombre": "Emiliano Gabriel",
+    "apellido": "Acosta",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "emilianogabriel.acosta@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 56,
+  "fields": {
+    "dni": "34412322",
+    "nombre": "Silvana Gisela",
+    "apellido": "Arana",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "silvanagisela.arana@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 57,
+  "fields": {
+    "dni": "36851565",
+    "nombre": "Eduardo Raúl",
+    "apellido": "Campo",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "eduardoraúl.campo@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 58,
+  "fields": {
+    "dni": "35395766",
+    "nombre": "Mariela Karina",
+    "apellido": "Carranza",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "marielakarina.carranza@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 59,
+  "fields": {
+    "dni": "47096780",
+    "nombre": "Garcia Felipe",
+    "apellido": "Claro",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "garciafelipe.claro@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 60,
+  "fields": {
+    "dni": "41235048",
+    "nombre": "Sotomayor Jonatan",
+    "apellido": "Encalada",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "sotomayorjonatan.encalada@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 61,
+  "fields": {
+    "dni": "42390630",
+    "nombre": "De Andrade Thiago",
+    "apellido": "Ferreira",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "deandradethiago.ferreira@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 62,
+  "fields": {
+    "dni": "94558439",
+    "nombre": "Diana Jazmín",
+    "apellido": "Gimenez",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "dianajazmín.gimenez@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 63,
+  "fields": {
+    "dni": "33080058",
+    "nombre": "Rocio Veronica",
+    "apellido": "Gonzalez",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "rocioveronica.gonzalez@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 64,
+  "fields": {
+    "dni": "43590155",
+    "nombre": "Melina",
+    "apellido": "Martin",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "melina.martin@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 65,
+  "fields": {
+    "dni": "38355591",
+    "nombre": "Villarreal Victor Manuel",
+    "apellido": "Medina",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "villarrealvictormanuel.medina@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 66,
+  "fields": {
+    "dni": "43040410",
+    "nombre": "Priscila Abigail",
+    "apellido": "Melgar",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "priscilaabigail.melgar@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 67,
+  "fields": {
+    "dni": "26167435",
+    "nombre": "Maria",
+    "apellido": "Melgarejo",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "maria.melgarejo@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 68,
+  "fields": {
+    "dni": "40375233",
+    "nombre": "Vanesa Belen",
+    "apellido": "Nieva",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "vanesabelen.nieva@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 69,
+  "fields": {
+    "dni": "46268221",
+    "nombre": "Azul Denise",
+    "apellido": "Olivera",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "azuldenise.olivera@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 70,
+  "fields": {
+    "dni": "22980305",
+    "nombre": "Carlos Alberto",
+    "apellido": "Olivera",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "carlosalberto.olivera@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 71,
+  "fields": {
+    "dni": "35723560",
+    "nombre": "Marilena Anahí",
+    "apellido": "Retamal",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "marilenaanahí.retamal@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 72,
+  "fields": {
+    "dni": "44207075",
+    "nombre": "Joaquina Nair",
+    "apellido": "Roldán",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "joaquinanair.roldán@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 73,
+  "fields": {
+    "dni": "33633560",
+    "nombre": "Cintia Soledad",
+    "apellido": "Soto",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "cintiasoledad.soto@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 74,
+  "fields": {
+    "dni": "48227321",
+    "nombre": "Villarreal Ayelen",
+    "apellido": "Taborda",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "villarrealayelen.taborda@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 75,
+  "fields": {
+    "dni": "52436749",
+    "nombre": "Gastón David",
+    "apellido": "Zarate",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "gastóndavid.zarate@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 76,
+  "fields": {
+    "dni": "46647745",
+    "nombre": "Lutfallah Jonas",
+    "apellido": "Abraham",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "lutfallahjonas.abraham@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 77,
+  "fields": {
+    "dni": "DOC_279892",
+    "nombre": "D`Amico",
+    "apellido": "R.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 78,
+  "fields": {
+    "dni": "DOC_483465",
+    "nombre": "Docente",
+    "apellido": "Taborda",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 79,
+  "fields": {
+    "dni": "DOC_334865",
+    "nombre": "Sala",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 80,
+  "fields": {
+    "dni": "DOC_843948",
+    "nombre": "Mario",
+    "apellido": "Torres",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 81,
+  "fields": {
+    "dni": "DOC_591198",
+    "nombre": "Siroti",
+    "apellido": "S.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 82,
+  "fields": {
+    "dni": "DOC_421595",
+    "nombre": "Issa",
+    "apellido": "J.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 83,
+  "fields": {
+    "dni": "DOC_589935",
+    "nombre": "Juan",
+    "apellido": "Hayden,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 84,
+  "fields": {
+    "dni": "DOC_833790",
+    "nombre": "Grassi",
+    "apellido": "J.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 85,
+  "fields": {
+    "dni": "DOC_977200",
+    "nombre": "Docente",
+    "apellido": "Hoffmann",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 86,
+  "fields": {
+    "dni": "DOC_202279",
+    "nombre": "Yarza",
+    "apellido": "N.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 87,
+  "fields": {
+    "dni": "DOC_918038",
+    "nombre": "Docente",
+    "apellido": "Mosquera",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 88,
+  "fields": {
+    "dni": "DOC_715045",
+    "nombre": "Gómez",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 89,
+  "fields": {
+    "dni": "DOC_19120",
+    "nombre": "Luciano",
+    "apellido": "Zanolo,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 90,
+  "fields": {
+    "dni": "DOC_549901",
+    "nombre": "Mosquera",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 91,
+  "fields": {
+    "dni": "DOC_952560",
+    "nombre": "Russo",
+    "apellido": "M.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 92,
+  "fields": {
+    "dni": "DOC_101616",
+    "nombre": "Docente",
+    "apellido": "Ingreso",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 93,
+  "fields": {
+    "dni": "DOC_649401",
+    "nombre": "Docente",
+    "apellido": "3",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 94,
+  "fields": {
+    "dni": "DOC_336641",
+    "nombre": "Docente",
+    "apellido": "4",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 95,
+  "fields": {
+    "dni": "DOC_120369",
+    "nombre": "Docente",
+    "apellido": "7",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 96,
+  "fields": {
+    "dni": "DOC_301900",
+    "nombre": "Docente",
+    "apellido": "6",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 97,
+  "fields": {
+    "dni": "DOC_401116",
+    "nombre": "Docente",
+    "apellido": "15",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 98,
+  "fields": {
+    "dni": "DOC_555688",
+    "nombre": "Docente",
+    "apellido": "16",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 99,
+  "fields": {
+    "dni": "DOC_880230",
+    "nombre": "Docente",
+    "apellido": "Indigoras",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 100,
+  "fields": {
+    "dni": "DOC_67895",
+    "nombre": "Raquel",
+    "apellido": "Ramos",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 101,
+  "fields": {
+    "dni": "DOC_20485",
+    "nombre": "Docente",
+    "apellido": "Arnes",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 102,
+  "fields": {
+    "dni": "DOC_587799",
+    "nombre": "Docente",
+    "apellido": "Liva",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 103,
+  "fields": {
+    "dni": "DOC_732978",
+    "nombre": "Ana",
+    "apellido": "Livolsi,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 104,
+  "fields": {
+    "dni": "DOC_118400",
+    "nombre": "Pedra",
+    "apellido": "Ingreso",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 105,
+  "fields": {
+    "dni": "DOC_362838",
+    "nombre": "Docente",
+    "apellido": "Vega",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 106,
+  "fields": {
+    "dni": "DOC_39231",
+    "nombre": "Docente",
+    "apellido": "Segura",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 107,
+  "fields": {
+    "dni": "DOC_843711",
+    "nombre": "Walter",
+    "apellido": "Barbosa",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 108,
+  "fields": {
+    "dni": "DOC_577723",
+    "nombre": "Docente",
+    "apellido": "Dalman,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 109,
+  "fields": {
+    "dni": "DOC_902257",
+    "nombre": "Hernan",
+    "apellido": "Salas",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 110,
+  "fields": {
+    "dni": "DOC_521439",
+    "nombre": "Docente",
+    "apellido": "Salas-Poletti",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 111,
+  "fields": {
+    "dni": "DOC_971333",
+    "nombre": "Malena",
+    "apellido": "Noguer,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 112,
+  "fields": {
+    "dni": "DOC_511563",
+    "nombre": "Docente",
+    "apellido": "Barbieri,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 113,
+  "fields": {
+    "dni": "DOC_206932",
+    "nombre": "Juan",
+    "apellido": "Tedesco,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 114,
+  "fields": {
+    "dni": "DOC_890924",
+    "nombre": "Fernando",
+    "apellido": "Cufre,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 115,
+  "fields": {
+    "dni": "DOC_15318",
+    "nombre": "Eugenia",
+    "apellido": "Tutti,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 116,
+  "fields": {
+    "dni": "DOC_163808",
+    "nombre": "Docente",
+    "apellido": "Goncalvez,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 117,
+  "fields": {
+    "dni": "DOC_409308",
+    "nombre": "designar",
+    "apellido": "A",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 118,
+  "fields": {
+    "dni": "DOC_273829",
+    "nombre": "Raquel",
+    "apellido": "Ramos,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 119,
+  "fields": {
+    "dni": "DOC_918811",
+    "nombre": "Ojeda",
+    "apellido": "Martinez,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 120,
+  "fields": {
+    "dni": "DOC_972359",
+    "nombre": "Nancy",
+    "apellido": "Castelli,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 121,
+  "fields": {
+    "dni": "DOC_187304",
+    "nombre": "Maria",
+    "apellido": "Coratti,",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 122,
+  "fields": {
+    "dni": "DOC_71762",
+    "nombre": "Docente",
+    "apellido": "Rebotaro",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 123,
+  "fields": {
+    "dni": "DOC_460333",
+    "nombre": "Lopes",
+    "apellido": "Garcia",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 124,
+  "fields": {
+    "dni": "DOC_103380",
+    "nombre": "Cardenas",
+    "apellido": "Pedra.",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 125,
+  "fields": {
+    "dni": "DOC_816881",
+    "nombre": "A.",
+    "apellido": "Rotondaro",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 126,
+  "fields": {
+    "dni": "DOC_751000",
+    "nombre": "Docente",
+    "apellido": "Falasca",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 127,
+  "fields": {
+    "dni": "DOC_420726",
+    "nombre": "I.",
+    "apellido": "Pomar",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 128,
+  "fields": {
+    "dni": "DOC_526988",
+    "nombre": "Docente",
+    "apellido": "Castelli",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 129,
+  "fields": {
+    "dni": "DOC_496156",
+    "nombre": "Docente",
+    "apellido": "Siroti",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 130,
+  "fields": {
+    "dni": "DOC_615875",
+    "nombre": "Docente",
+    "apellido": "Odato",
+    "domicilio": null,
+    "telefono": null,
+    "mail": null
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 131,
+  "fields": {
+    "dni": "46194301",
+    "nombre": "Giovanni Sebastián Alva",
+    "apellido": "Acosta",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "giovannisebastiánalva.acosta@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 132,
+  "fields": {
+    "dni": "38124300",
+    "nombre": "Yessica Agustina",
+    "apellido": "Aguirre",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "yessicaagustina.aguirre@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 133,
+  "fields": {
+    "dni": "43256287",
+    "nombre": "Margarita Rosa Milagros",
+    "apellido": "Biglieri",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "margaritarosamilagros.biglieri@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 134,
+  "fields": {
+    "dni": "44206910",
+    "nombre": "Debora Mailen",
+    "apellido": "Carrizo",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "deboramailen.carrizo@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 135,
+  "fields": {
+    "dni": "36845623",
+    "nombre": "José Pablo",
+    "apellido": "Cartolano",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "josépablo.cartolano@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 136,
+  "fields": {
+    "dni": "38166946",
+    "nombre": "Tania Antonella",
+    "apellido": "Casco",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "taniaantonella.casco@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 137,
+  "fields": {
+    "dni": "42663201",
+    "nombre": "Carlos Alberto",
+    "apellido": "Contreras",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "carlosalberto.contreras@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 138,
+  "fields": {
+    "dni": "46358803",
+    "nombre": "Pamela Carolina",
+    "apellido": "Decoud",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "pamelacarolina.decoud@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 139,
+  "fields": {
+    "dni": "27282788",
+    "nombre": "Guillermo Adrian",
+    "apellido": "Liva",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "guillermoadrian.liva@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 140,
+  "fields": {
+    "dni": "44206730",
+    "nombre": "Alexis Leonardo",
+    "apellido": "Manzur",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "alexisleonardo.manzur@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 141,
+  "fields": {
+    "dni": "40917345",
+    "nombre": "Karen Patricia",
+    "apellido": "Montero",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "karenpatricia.montero@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 142,
+  "fields": {
+    "dni": "35942527",
+    "nombre": "Maria Belen",
+    "apellido": "Porcel",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "mariabelen.porcel@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 143,
+  "fields": {
+    "dni": "41459945",
+    "nombre": "Camila Agustina",
+    "apellido": "Rodríguez",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "camilaagustina.rodríguez@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.persona",
+  "pk": 144,
+  "fields": {
+    "dni": "41459965",
+    "nombre": "Marcelo",
+    "apellido": "Rodriguez",
+    "domicilio": null,
+    "telefono": null,
+    "mail": "marcelo.rodriguez@alumnos.isft188.edu.ar"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 76,
+  "fields": {
+    "legajo": "LEG-46647745"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 55,
+  "fields": {
+    "legajo": "LEG-40375138"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 131,
+  "fields": {
+    "legajo": "LEG-46194301"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 132,
+  "fields": {
+    "legajo": "LEG-38124300"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 56,
+  "fields": {
+    "legajo": "LEG-34412322"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 133,
+  "fields": {
+    "legajo": "LEG-43256287"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 57,
+  "fields": {
+    "legajo": "LEG-36851565"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 58,
+  "fields": {
+    "legajo": "LEG-35395766"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 134,
+  "fields": {
+    "legajo": "LEG-44206910"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 135,
+  "fields": {
+    "legajo": "LEG-36845623"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 136,
+  "fields": {
+    "legajo": "LEG-38166946"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 59,
+  "fields": {
+    "legajo": "LEG-47096780"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 137,
+  "fields": {
+    "legajo": "LEG-42663201"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 138,
+  "fields": {
+    "legajo": "LEG-46358803"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 60,
+  "fields": {
+    "legajo": "LEG-41235048"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 61,
+  "fields": {
+    "legajo": "LEG-42390630"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 62,
+  "fields": {
+    "legajo": "LEG-94558439"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 63,
+  "fields": {
+    "legajo": "LEG-33080058"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 139,
+  "fields": {
+    "legajo": "LEG-27282788"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 140,
+  "fields": {
+    "legajo": "LEG-44206730"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 64,
+  "fields": {
+    "legajo": "LEG-43590155"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 65,
+  "fields": {
+    "legajo": "LEG-38355591"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 66,
+  "fields": {
+    "legajo": "LEG-43040410"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 67,
+  "fields": {
+    "legajo": "LEG-26167435"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 141,
+  "fields": {
+    "legajo": "LEG-40917345"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 68,
+  "fields": {
+    "legajo": "LEG-40375233"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 69,
+  "fields": {
+    "legajo": "LEG-46268221"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 70,
+  "fields": {
+    "legajo": "LEG-22980305"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 142,
+  "fields": {
+    "legajo": "LEG-35942527"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 71,
+  "fields": {
+    "legajo": "LEG-35723560"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 144,
+  "fields": {
+    "legajo": "LEG-41459965"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 143,
+  "fields": {
+    "legajo": "LEG-41459945"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 72,
+  "fields": {
+    "legajo": "LEG-44207075"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 73,
+  "fields": {
+    "legajo": "LEG-33633560"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 74,
+  "fields": {
+    "legajo": "LEG-48227321"
+  }
+},
+{
+  "model": "gestion.alumno",
+  "pk": 75,
+  "fields": {
+    "legajo": "LEG-52436749"
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 21,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 97,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 22,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 98,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 17,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 93,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 18,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 94,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 20,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 96,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 19,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 95,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 41,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 117,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 25,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 101,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 36,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 112,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 31,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 107,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 52,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 128,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 44,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 120,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 45,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 121,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 38,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 114,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 32,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 108,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 50,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 126,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 47,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 123,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 40,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 116,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 7,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 83,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 9,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 85,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 23,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 99,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 16,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 92,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 28,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 104,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 8,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 84,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 6,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 82,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 26,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 102,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 27,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 103,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 12,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 88,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 14,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 90,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 15,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 91,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 3,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 79,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 43,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 119,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 11,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 87,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 10,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 86,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 35,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 111,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 54,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 130,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 48,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 124,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 51,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 127,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 1,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 77,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 24,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 100,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 42,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 118,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 46,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 122,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 49,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 125,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 5,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 81,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 33,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 109,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 34,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 110,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 30,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 106,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 53,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 129,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 2,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 78,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 37,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 113,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 4,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 80,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 39,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 115,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 29,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 105,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 13,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.docente",
+  "pk": 89,
+  "fields": {
+    "titulo_mn": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "DEPORTIVAS-2786",
+  "fields": {
+    "nombre_carrera": "Tecnicatura Superior en Prácticas Deportivas",
+    "resolucion_vigente": "Res. 2786/20",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "ENERGIA-794",
+  "fields": {
+    "nombre_carrera": "Técnico Superior en Energía con Orientación Industrial",
+    "resolucion_vigente": "Res. 794/01",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "ENFERMERIA-854",
+  "fields": {
+    "nombre_carrera": "Tecnicatura Superior en Enfermería",
+    "resolucion_vigente": "Res. 854/16",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "ESTERILIZACION-530",
+  "fields": {
+    "nombre_carrera": "Tecnicatura Superior en Tecnología en Salud con especialidad en Esterilización",
+    "resolucion_vigente": "Res. 530/09",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "GENERAL",
+  "fields": {
+    "nombre_carrera": "Técnicatura Superior en Logística         Resolucion 5312/24",
+    "resolucion_vigente": null,
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "HIGIENE-320",
+  "fields": {
+    "nombre_carrera": "Tecnicatura Superior en Higiene y Seguridad en el Trabajo",
+    "resolucion_vigente": "Res. 320/13",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "HIGIENE-6183",
+  "fields": {
+    "nombre_carrera": "Tecnicatura Superior en Higiene y Seguridad en el Trabajo",
+    "resolucion_vigente": "Res. 6183/25",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "LABORATORIO-205",
+  "fields": {
+    "nombre_carrera": "Técnico Superior en Laboratorio de Análisis Clínicos",
+    "resolucion_vigente": "Res. 205/18",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "LABORATORIO-6182",
+  "fields": {
+    "nombre_carrera": "Técnico Superior en Laboratorio de Análisis Clínicos",
+    "resolucion_vigente": "Res. 6182/25",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "LOGISTICA-1557",
+  "fields": {
+    "nombre_carrera": "Tecnicatura Superior en Logística",
+    "resolucion_vigente": "Res. 1557/08",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.carrera",
+  "pk": "LOGISTICA-5312",
+  "fields": {
+    "nombre_carrera": "Tecnicatura Superior en Logística",
+    "resolucion_vigente": "Res. 5312/24",
+    "resolucion_anterior": null
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_01",
+  "fields": {
+    "nombre_materia": "ESI en las prácticas deportivas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_02",
+  "fields": {
+    "nombre_materia": "Introducción a las prácticas deportivas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_03",
+  "fields": {
+    "nombre_materia": "Anatomía y biomecánica"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_04",
+  "fields": {
+    "nombre_materia": "Prácticas deportivas acuáticas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_05",
+  "fields": {
+    "nombre_materia": "Prácticas deportivas atleticas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_06",
+  "fields": {
+    "nombre_materia": "Prácticas deportivas sociocomunitarias"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_07",
+  "fields": {
+    "nombre_materia": "Practicas profesionalizantes"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_1",
+  "fields": {
+    "nombre_materia": "Psicología"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_10",
+  "fields": {
+    "nombre_materia": "Inglés"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_11",
+  "fields": {
+    "nombre_materia": "Física"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_12",
+  "fields": {
+    "nombre_materia": "Química"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_13",
+  "fields": {
+    "nombre_materia": "Practicas deportivas alternativas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_14",
+  "fields": {
+    "nombre_materia": "Practicas profesionalizantes"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_15",
+  "fields": {
+    "nombre_materia": "Seguridad"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_16",
+  "fields": {
+    "nombre_materia": "Higiene laboral y medio ambiente"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_17",
+  "fields": {
+    "nombre_materia": "Medicina del trabajo"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_18",
+  "fields": {
+    "nombre_materia": "Practica Profesonalizante"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_19",
+  "fields": {
+    "nombre_materia": "Practicas deportivas de conjunto"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_2",
+  "fields": {
+    "nombre_materia": "Teorías Socio Culturales de la Salud"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_20",
+  "fields": {
+    "nombre_materia": "Enfermería en Salud Mental"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_21",
+  "fields": {
+    "nombre_materia": "Seguridad"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_22",
+  "fields": {
+    "nombre_materia": "Higiene laboral y medio ambiente"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_23",
+  "fields": {
+    "nombre_materia": "Procesos de Esterilización II"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_24",
+  "fields": {
+    "nombre_materia": "Practica Profesonalizante"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_25",
+  "fields": {
+    "nombre_materia": "Gestion de sistemas de calidad"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_26",
+  "fields": {
+    "nombre_materia": "Módulo de Definición Instit III"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_27",
+  "fields": {
+    "nombre_materia": "Practica profesional III"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_3",
+  "fields": {
+    "nombre_materia": "Física"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_4",
+  "fields": {
+    "nombre_materia": "Química"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_5",
+  "fields": {
+    "nombre_materia": "Biología Humana"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_6",
+  "fields": {
+    "nombre_materia": "Medicina del trabajo"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_7",
+  "fields": {
+    "nombre_materia": "Seguridad"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_8",
+  "fields": {
+    "nombre_materia": "Practicas Profesionales I"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "DEPORTIVAS-2786_9",
+  "fields": {
+    "nombre_materia": "Practica Profesonalizante"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_1",
+  "fields": {
+    "nombre_materia": "Análisis Matemático"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_10",
+  "fields": {
+    "nombre_materia": "Electrotecnia I"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_11",
+  "fields": {
+    "nombre_materia": "Arquitectura Solar I"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_12",
+  "fields": {
+    "nombre_materia": "Inst. de Acondicionamiento Ambiental"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_13",
+  "fields": {
+    "nombre_materia": "Computación"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_14",
+  "fields": {
+    "nombre_materia": "Física II"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_15",
+  "fields": {
+    "nombre_materia": "Inglés Técnico II"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_16",
+  "fields": {
+    "nombre_materia": "Integración Cultural"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_17",
+  "fields": {
+    "nombre_materia": "Seminario I"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_18",
+  "fields": {
+    "nombre_materia": "Inst. y Aplicaciones de Energía Solar"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_19",
+  "fields": {
+    "nombre_materia": "Uso racional de la Energía"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_2",
+  "fields": {
+    "nombre_materia": "Física I"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_20",
+  "fields": {
+    "nombre_materia": "Instalaciones Industriales"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_21",
+  "fields": {
+    "nombre_materia": "Seminario II"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_22",
+  "fields": {
+    "nombre_materia": "Arquitectura Solar II"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_23",
+  "fields": {
+    "nombre_materia": "Electrotecnia II"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_24",
+  "fields": {
+    "nombre_materia": "Legal"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_3",
+  "fields": {
+    "nombre_materia": "Química Industrial"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_4",
+  "fields": {
+    "nombre_materia": "Fuentes de Energía"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_5",
+  "fields": {
+    "nombre_materia": "Dibujo Técnico"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_6",
+  "fields": {
+    "nombre_materia": "Inglés Técnico I"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_7",
+  "fields": {
+    "nombre_materia": "Geografía Física"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_8",
+  "fields": {
+    "nombre_materia": "Relaciones Humanas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "ENERGIA-794_9",
+  "fields": {
+    "nombre_materia": "Álgebra y Geometría"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "MAT_33965",
+  "fields": {
+    "nombre_materia": "13 - Tec. Y Sist. De Inf. En Logistica 3"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "MAT_37641",
+  "fields": {
+    "nombre_materia": "15 - Tics en las Pract. Deportivas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "MAT_DEPORTIVAS_36676",
+  "fields": {
+    "nombre_materia": "15 - Tics en las Pract. Deportivas"
+  }
+},
+{
+  "model": "gestion.materia",
+  "pk": "MAT_LOGISTICA_1429",
+  "fields": {
+    "nombre_materia": "13 - Tec. Y Sist. De Inf. En Logistica 3"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 1,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_1",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 192,
+    "carga_horaria_semanal": 6,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 2,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_2",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 192,
+    "carga_horaria_semanal": 6,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 3,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_3",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 192,
+    "carga_horaria_semanal": 6,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 4,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_4",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 128,
+    "carga_horaria_semanal": 4,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 5,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_5",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 96,
+    "carga_horaria_semanal": 3,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 6,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_6",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 7,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_7",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 8,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_8",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 9,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_9",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 160,
+    "carga_horaria_semanal": 5,
+    "correlatividades": "01"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 10,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_10",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 160,
+    "carga_horaria_semanal": 5,
+    "correlatividades": "01-02"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 11,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_11",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 128,
+    "carga_horaria_semanal": 4,
+    "correlatividades": "01-02-04-05-07"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 12,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_12",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 128,
+    "carga_horaria_semanal": 4,
+    "correlatividades": "01-02-05"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 13,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_13",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 96,
+    "carga_horaria_semanal": 3,
+    "correlatividades": "01"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 14,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_14",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 96,
+    "carga_horaria_semanal": 3,
+    "correlatividades": "01-02"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 15,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_15",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "06"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 16,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_16",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 17,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_17",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "01-02-03-04-07"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 18,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_18",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 160,
+    "carga_horaria_semanal": 5,
+    "correlatividades": "10-12-13-14"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 19,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_19",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 160,
+    "carga_horaria_semanal": 5,
+    "correlatividades": "03-04-10-12-14"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 20,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_20",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 160,
+    "carga_horaria_semanal": 5,
+    "correlatividades": "03-04-10-12-14"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 21,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_21",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 160,
+    "carga_horaria_semanal": 5,
+    "correlatividades": "09-10-12-14-17"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 22,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_22",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 96,
+    "carga_horaria_semanal": 3,
+    "correlatividades": "11-13"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 23,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_23",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 96,
+    "carga_horaria_semanal": 3,
+    "correlatividades": "10-14"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 24,
+  "fields": {
+    "carrera": "ENERGIA-794",
+    "materia": "ENERGIA-794_24",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 25,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_3",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 1,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 26,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_4",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 1,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 27,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_6",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 1,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 28,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_7",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 1,
+    "carga_horaria_semanal": 96,
+    "correlatividades": "3"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 29,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_9",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 1,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 30,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_11",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 31,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_12",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 32,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_15",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 96,
+    "correlatividades": "3"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 33,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_16",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 1,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 34,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_17",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 35,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_18",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 96,
+    "correlatividades": "3"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 36,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_21",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 3,
+    "carga_horaria_semanal": 128,
+    "correlatividades": "4"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 37,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_22",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 96,
+    "correlatividades": "3"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 38,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_24",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 3,
+    "carga_horaria_semanal": 192,
+    "correlatividades": "6"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 39,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_01",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 40,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_02",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 41,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_03",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 42,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_04",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 43,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_05",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 44,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_06",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 45,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_07",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 1,
+    "carga_horaria_semanal": 192,
+    "correlatividades": "6  - - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 46,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_13",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -  - - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 47,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_14",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 192,
+    "correlatividades": "6 07  - - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 48,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_19",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 2,
+    "carga_horaria_semanal": 64,
+    "correlatividades": "2  - - - - - - - - - -  - - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 49,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_1",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 32,
+    "carga_horaria_semanal": 1,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 50,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_2",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 32,
+    "carga_horaria_semanal": 1,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 51,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_5",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 128,
+    "carga_horaria_semanal": 4,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 52,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_8",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 256,
+    "carga_horaria_semanal": 8,
+    "correlatividades": "- - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 53,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_10",
+    "anio_carrera": 2,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 32,
+    "carga_horaria_semanal": 1,
+    "correlatividades": "- - - - - - - - - -  - - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 54,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_20",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 64,
+    "carga_horaria_semanal": 2,
+    "correlatividades": "- - - - - - - - - -  - - - - - - - - - -"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 55,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_23",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 96,
+    "carga_horaria_semanal": 3,
+    "correlatividades": "22.0"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 56,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_25",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 32,
+    "carga_horaria_semanal": 1,
+    "correlatividades": "24.0"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 57,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_26",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 32,
+    "carga_horaria_semanal": 1,
+    "correlatividades": "17.0"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 58,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "DEPORTIVAS-2786_27",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": 192,
+    "carga_horaria_semanal": 6,
+    "correlatividades": "18.0"
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 59,
+  "fields": {
+    "carrera": "GENERAL",
+    "materia": "MAT_33965",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": null,
+    "carga_horaria_semanal": null,
+    "correlatividades": ""
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 60,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "MAT_37641",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": null,
+    "carga_horaria_semanal": null,
+    "correlatividades": ""
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 61,
+  "fields": {
+    "carrera": "GENERAL",
+    "materia": "MAT_LOGISTICA_1429",
+    "anio_carrera": 3,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": null,
+    "carga_horaria_semanal": null,
+    "correlatividades": ""
+  }
+},
+{
+  "model": "gestion.planestudio",
+  "pk": 62,
+  "fields": {
+    "carrera": "DEPORTIVAS-2786",
+    "materia": "MAT_DEPORTIVAS_36676",
+    "anio_carrera": 1,
+    "modalidad": "Cuatrimestral",
+    "carga_horaria_anual": null,
+    "carga_horaria_semanal": null,
+    "correlatividades": ""
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_10_2026",
+  "fields": {
+    "plan_estudio": 10,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_11_2026",
+  "fields": {
+    "plan_estudio": 11,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_12_2026",
+  "fields": {
+    "plan_estudio": 12,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_13_2026",
+  "fields": {
+    "plan_estudio": 13,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_14_2026",
+  "fields": {
+    "plan_estudio": 14,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_15_2026",
+  "fields": {
+    "plan_estudio": 15,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_16_2026",
+  "fields": {
+    "plan_estudio": 16,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_17_2026",
+  "fields": {
+    "plan_estudio": 17,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_18_2026",
+  "fields": {
+    "plan_estudio": 18,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_19_2026",
+  "fields": {
+    "plan_estudio": 19,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_1_2026",
+  "fields": {
+    "plan_estudio": 1,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_20_2026",
+  "fields": {
+    "plan_estudio": 20,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_21_2026",
+  "fields": {
+    "plan_estudio": 21,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_22_2026",
+  "fields": {
+    "plan_estudio": 22,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_23_2026",
+  "fields": {
+    "plan_estudio": 23,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_24_2026",
+  "fields": {
+    "plan_estudio": 24,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_25_2026",
+  "fields": {
+    "plan_estudio": 25,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_26_2026",
+  "fields": {
+    "plan_estudio": 26,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_27_2026",
+  "fields": {
+    "plan_estudio": 27,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_28_2026",
+  "fields": {
+    "plan_estudio": 28,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_29_2026",
+  "fields": {
+    "plan_estudio": 29,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_2_2026",
+  "fields": {
+    "plan_estudio": 2,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_30_2026",
+  "fields": {
+    "plan_estudio": 30,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_31_2026",
+  "fields": {
+    "plan_estudio": 31,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_32_2026",
+  "fields": {
+    "plan_estudio": 32,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_33_2026",
+  "fields": {
+    "plan_estudio": 33,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_34_2026",
+  "fields": {
+    "plan_estudio": 34,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_35_2026",
+  "fields": {
+    "plan_estudio": 35,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_36_2026",
+  "fields": {
+    "plan_estudio": 36,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_37_2026",
+  "fields": {
+    "plan_estudio": 37,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_38_2026",
+  "fields": {
+    "plan_estudio": 38,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_39_2026",
+  "fields": {
+    "plan_estudio": 39,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_3_2026",
+  "fields": {
+    "plan_estudio": 3,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_40_2026",
+  "fields": {
+    "plan_estudio": 40,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_41_2026",
+  "fields": {
+    "plan_estudio": 41,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_42_2026",
+  "fields": {
+    "plan_estudio": 42,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_43_2026",
+  "fields": {
+    "plan_estudio": 43,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_44_2026",
+  "fields": {
+    "plan_estudio": 44,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_45_2026",
+  "fields": {
+    "plan_estudio": 45,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_46_2026",
+  "fields": {
+    "plan_estudio": 46,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_47_2026",
+  "fields": {
+    "plan_estudio": 47,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_48_2026",
+  "fields": {
+    "plan_estudio": 48,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_49_2026",
+  "fields": {
+    "plan_estudio": 49,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_4_2026",
+  "fields": {
+    "plan_estudio": 4,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_50_2026",
+  "fields": {
+    "plan_estudio": 50,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_51_2026",
+  "fields": {
+    "plan_estudio": 51,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_52_2026",
+  "fields": {
+    "plan_estudio": 52,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_53_2026",
+  "fields": {
+    "plan_estudio": 53,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_54_2026",
+  "fields": {
+    "plan_estudio": 54,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_55_2026",
+  "fields": {
+    "plan_estudio": 55,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_56_2026",
+  "fields": {
+    "plan_estudio": 56,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_57_2026",
+  "fields": {
+    "plan_estudio": 57,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_58_2026",
+  "fields": {
+    "plan_estudio": 58,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_59_2025",
+  "fields": {
+    "plan_estudio": 59,
+    "anio_lectivo": 2025,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_5_2026",
+  "fields": {
+    "plan_estudio": 5,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_60_2025",
+  "fields": {
+    "plan_estudio": 60,
+    "anio_lectivo": 2025,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_6_2026",
+  "fields": {
+    "plan_estudio": 6,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_7_2026",
+  "fields": {
+    "plan_estudio": 7,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_8_2026",
+  "fields": {
+    "plan_estudio": 8,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_9_2026",
+  "fields": {
+    "plan_estudio": 9,
+    "anio_lectivo": 2026,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_DEPORTIVAS_62_2025",
+  "fields": {
+    "plan_estudio": 62,
+    "anio_lectivo": 2025,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comision",
+  "pk": "COM_LOGISTICA_61_2025",
+  "fields": {
+    "plan_estudio": 61,
+    "anio_lectivo": 2025,
+    "cuatrimestre": "Anual",
+    "turno": "Vespertino",
+    "division": "A"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 1,
+  "fields": {
+    "comision": "COM_1_2026",
+    "docente": 1,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 2,
+  "fields": {
+    "comision": "COM_2_2026",
+    "docente": 2,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 3,
+  "fields": {
+    "comision": "COM_3_2026",
+    "docente": 3,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 4,
+  "fields": {
+    "comision": "COM_4_2026",
+    "docente": 2,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 5,
+  "fields": {
+    "comision": "COM_5_2026",
+    "docente": 4,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 6,
+  "fields": {
+    "comision": "COM_6_2026",
+    "docente": 5,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 7,
+  "fields": {
+    "comision": "COM_7_2026",
+    "docente": 6,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 8,
+  "fields": {
+    "comision": "COM_8_2026",
+    "docente": 7,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 9,
+  "fields": {
+    "comision": "COM_9_2026",
+    "docente": 1,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 10,
+  "fields": {
+    "comision": "COM_10_2026",
+    "docente": 8,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 11,
+  "fields": {
+    "comision": "COM_11_2026",
+    "docente": 9,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 12,
+  "fields": {
+    "comision": "COM_12_2026",
+    "docente": 10,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 13,
+  "fields": {
+    "comision": "COM_13_2026",
+    "docente": 11,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 14,
+  "fields": {
+    "comision": "COM_14_2026",
+    "docente": 8,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 15,
+  "fields": {
+    "comision": "COM_15_2026",
+    "docente": 5,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 16,
+  "fields": {
+    "comision": "COM_16_2026",
+    "docente": 12,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 17,
+  "fields": {
+    "comision": "COM_17_2026",
+    "docente": 10,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 18,
+  "fields": {
+    "comision": "COM_18_2026",
+    "docente": 11,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 19,
+  "fields": {
+    "comision": "COM_19_2026",
+    "docente": 8,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 20,
+  "fields": {
+    "comision": "COM_20_2026",
+    "docente": 13,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 21,
+  "fields": {
+    "comision": "COM_21_2026",
+    "docente": 14,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 22,
+  "fields": {
+    "comision": "COM_22_2026",
+    "docente": 9,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 23,
+  "fields": {
+    "comision": "COM_23_2026",
+    "docente": 8,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 24,
+  "fields": {
+    "comision": "COM_24_2026",
+    "docente": 15,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 25,
+  "fields": {
+    "comision": "COM_25_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 26,
+  "fields": {
+    "comision": "COM_26_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 27,
+  "fields": {
+    "comision": "COM_27_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 28,
+  "fields": {
+    "comision": "COM_28_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 29,
+  "fields": {
+    "comision": "COM_29_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 30,
+  "fields": {
+    "comision": "COM_30_2026",
+    "docente": 17,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 31,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 18,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 32,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 19,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 33,
+  "fields": {
+    "comision": "COM_33_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 34,
+  "fields": {
+    "comision": "COM_34_2026",
+    "docente": 20,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 35,
+  "fields": {
+    "comision": "COM_35_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 36,
+  "fields": {
+    "comision": "COM_36_2026",
+    "docente": 21,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 37,
+  "fields": {
+    "comision": "COM_37_2026",
+    "docente": 22,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 38,
+  "fields": {
+    "comision": "COM_38_2026",
+    "docente": 16,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 39,
+  "fields": {
+    "comision": "COM_1_2026",
+    "docente": 23,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 40,
+  "fields": {
+    "comision": "COM_2_2026",
+    "docente": 24,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 41,
+  "fields": {
+    "comision": "COM_3_2026",
+    "docente": 25,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 42,
+  "fields": {
+    "comision": "COM_4_2026",
+    "docente": 26,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 43,
+  "fields": {
+    "comision": "COM_5_2026",
+    "docente": 26,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 44,
+  "fields": {
+    "comision": "COM_6_2026",
+    "docente": 27,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 45,
+  "fields": {
+    "comision": "COM_7_2026",
+    "docente": 28,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 46,
+  "fields": {
+    "comision": "COM_8_2026",
+    "docente": 29,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 47,
+  "fields": {
+    "comision": "COM_10_2026",
+    "docente": 27,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 48,
+  "fields": {
+    "comision": "COM_11_2026",
+    "docente": 30,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 49,
+  "fields": {
+    "comision": "COM_12_2026",
+    "docente": 31,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 50,
+  "fields": {
+    "comision": "COM_13_2026",
+    "docente": 32,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 51,
+  "fields": {
+    "comision": "COM_14_2026",
+    "docente": 33,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 52,
+  "fields": {
+    "comision": "COM_15_2026",
+    "docente": 24,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 53,
+  "fields": {
+    "comision": "COM_16_2026",
+    "docente": 27,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 54,
+  "fields": {
+    "comision": "COM_17_2026",
+    "docente": 30,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 55,
+  "fields": {
+    "comision": "COM_18_2026",
+    "docente": 33,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 56,
+  "fields": {
+    "comision": "COM_19_2026",
+    "docente": 33,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 57,
+  "fields": {
+    "comision": "COM_20_2026",
+    "docente": 34,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 58,
+  "fields": {
+    "comision": "COM_39_2026",
+    "docente": 35,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 59,
+  "fields": {
+    "comision": "COM_40_2026",
+    "docente": 36,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 60,
+  "fields": {
+    "comision": "COM_41_2026",
+    "docente": 37,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 61,
+  "fields": {
+    "comision": "COM_42_2026",
+    "docente": 38,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 62,
+  "fields": {
+    "comision": "COM_43_2026",
+    "docente": 39,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 63,
+  "fields": {
+    "comision": "COM_44_2026",
+    "docente": 38,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 64,
+  "fields": {
+    "comision": "COM_45_2026",
+    "docente": 40,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 65,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 66,
+  "fields": {
+    "comision": "COM_46_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 67,
+  "fields": {
+    "comision": "COM_47_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 68,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 69,
+  "fields": {
+    "comision": "COM_34_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 70,
+  "fields": {
+    "comision": "COM_35_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 71,
+  "fields": {
+    "comision": "COM_48_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 72,
+  "fields": {
+    "comision": "COM_36_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 73,
+  "fields": {
+    "comision": "COM_49_2026",
+    "docente": 7,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 74,
+  "fields": {
+    "comision": "COM_50_2026",
+    "docente": 42,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 75,
+  "fields": {
+    "comision": "COM_26_2026",
+    "docente": 7,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 76,
+  "fields": {
+    "comision": "COM_51_2026",
+    "docente": 43,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 77,
+  "fields": {
+    "comision": "COM_27_2026",
+    "docente": 42,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 78,
+  "fields": {
+    "comision": "COM_52_2026",
+    "docente": 44,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 79,
+  "fields": {
+    "comision": "COM_53_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 80,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 45,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 81,
+  "fields": {
+    "comision": "COM_46_2026",
+    "docente": 35,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 82,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 44,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 83,
+  "fields": {
+    "comision": "COM_54_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 84,
+  "fields": {
+    "comision": "COM_38_2026",
+    "docente": 41,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 85,
+  "fields": {
+    "comision": "COM_49_2026",
+    "docente": 46,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 86,
+  "fields": {
+    "comision": "COM_50_2026",
+    "docente": 11,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 87,
+  "fields": {
+    "comision": "COM_25_2026",
+    "docente": 46,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 88,
+  "fields": {
+    "comision": "COM_26_2026",
+    "docente": 26,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 89,
+  "fields": {
+    "comision": "COM_51_2026",
+    "docente": 26,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 90,
+  "fields": {
+    "comision": "COM_27_2026",
+    "docente": 47,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 91,
+  "fields": {
+    "comision": "COM_28_2026",
+    "docente": 47,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 92,
+  "fields": {
+    "comision": "COM_52_2026",
+    "docente": 48,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 93,
+  "fields": {
+    "comision": "COM_29_2026",
+    "docente": 49,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 94,
+  "fields": {
+    "comision": "COM_53_2026",
+    "docente": 25,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 95,
+  "fields": {
+    "comision": "COM_30_2026",
+    "docente": 24,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 96,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 29,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 97,
+  "fields": {
+    "comision": "COM_46_2026",
+    "docente": 25,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 98,
+  "fields": {
+    "comision": "COM_47_2026",
+    "docente": 50,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 99,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 51,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 100,
+  "fields": {
+    "comision": "COM_33_2026",
+    "docente": 52,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 101,
+  "fields": {
+    "comision": "COM_34_2026",
+    "docente": 51,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 102,
+  "fields": {
+    "comision": "COM_35_2026",
+    "docente": 51,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 103,
+  "fields": {
+    "comision": "COM_48_2026",
+    "docente": 53,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 104,
+  "fields": {
+    "comision": "COM_54_2026",
+    "docente": 24,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 105,
+  "fields": {
+    "comision": "COM_36_2026",
+    "docente": 49,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 106,
+  "fields": {
+    "comision": "COM_37_2026",
+    "docente": 51,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 107,
+  "fields": {
+    "comision": "COM_55_2026",
+    "docente": 54,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 108,
+  "fields": {
+    "comision": "COM_38_2026",
+    "docente": 51,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 109,
+  "fields": {
+    "comision": "COM_56_2026",
+    "docente": 24,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 110,
+  "fields": {
+    "comision": "COM_57_2026",
+    "docente": 51,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 111,
+  "fields": {
+    "comision": "COM_58_2026",
+    "docente": 51,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 112,
+  "fields": {
+    "comision": "COM_1_2026",
+    "docente": 77,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 113,
+  "fields": {
+    "comision": "COM_2_2026",
+    "docente": 78,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 114,
+  "fields": {
+    "comision": "COM_3_2026",
+    "docente": 79,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 115,
+  "fields": {
+    "comision": "COM_4_2026",
+    "docente": 78,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 116,
+  "fields": {
+    "comision": "COM_5_2026",
+    "docente": 80,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 117,
+  "fields": {
+    "comision": "COM_6_2026",
+    "docente": 81,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 118,
+  "fields": {
+    "comision": "COM_7_2026",
+    "docente": 82,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 119,
+  "fields": {
+    "comision": "COM_8_2026",
+    "docente": 83,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 120,
+  "fields": {
+    "comision": "COM_9_2026",
+    "docente": 77,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 121,
+  "fields": {
+    "comision": "COM_10_2026",
+    "docente": 84,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 122,
+  "fields": {
+    "comision": "COM_11_2026",
+    "docente": 85,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 123,
+  "fields": {
+    "comision": "COM_12_2026",
+    "docente": 86,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 124,
+  "fields": {
+    "comision": "COM_13_2026",
+    "docente": 87,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 125,
+  "fields": {
+    "comision": "COM_14_2026",
+    "docente": 84,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 126,
+  "fields": {
+    "comision": "COM_15_2026",
+    "docente": 81,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 127,
+  "fields": {
+    "comision": "COM_16_2026",
+    "docente": 88,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 128,
+  "fields": {
+    "comision": "COM_17_2026",
+    "docente": 86,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 129,
+  "fields": {
+    "comision": "COM_18_2026",
+    "docente": 87,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 130,
+  "fields": {
+    "comision": "COM_19_2026",
+    "docente": 84,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 131,
+  "fields": {
+    "comision": "COM_20_2026",
+    "docente": 89,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 132,
+  "fields": {
+    "comision": "COM_21_2026",
+    "docente": 90,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 133,
+  "fields": {
+    "comision": "COM_22_2026",
+    "docente": 85,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 134,
+  "fields": {
+    "comision": "COM_23_2026",
+    "docente": 84,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 135,
+  "fields": {
+    "comision": "COM_24_2026",
+    "docente": 91,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 136,
+  "fields": {
+    "comision": "COM_25_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 137,
+  "fields": {
+    "comision": "COM_26_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 138,
+  "fields": {
+    "comision": "COM_27_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 139,
+  "fields": {
+    "comision": "COM_28_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 140,
+  "fields": {
+    "comision": "COM_29_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 141,
+  "fields": {
+    "comision": "COM_30_2026",
+    "docente": 93,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 142,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 94,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 143,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 95,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 144,
+  "fields": {
+    "comision": "COM_33_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 145,
+  "fields": {
+    "comision": "COM_34_2026",
+    "docente": 96,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 146,
+  "fields": {
+    "comision": "COM_35_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 147,
+  "fields": {
+    "comision": "COM_36_2026",
+    "docente": 97,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 148,
+  "fields": {
+    "comision": "COM_37_2026",
+    "docente": 98,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 149,
+  "fields": {
+    "comision": "COM_38_2026",
+    "docente": 92,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 150,
+  "fields": {
+    "comision": "COM_1_2026",
+    "docente": 99,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 151,
+  "fields": {
+    "comision": "COM_2_2026",
+    "docente": 100,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 152,
+  "fields": {
+    "comision": "COM_3_2026",
+    "docente": 101,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 153,
+  "fields": {
+    "comision": "COM_4_2026",
+    "docente": 102,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 154,
+  "fields": {
+    "comision": "COM_5_2026",
+    "docente": 102,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 155,
+  "fields": {
+    "comision": "COM_6_2026",
+    "docente": 103,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 156,
+  "fields": {
+    "comision": "COM_7_2026",
+    "docente": 104,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 157,
+  "fields": {
+    "comision": "COM_8_2026",
+    "docente": 105,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 158,
+  "fields": {
+    "comision": "COM_10_2026",
+    "docente": 103,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 159,
+  "fields": {
+    "comision": "COM_11_2026",
+    "docente": 106,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 160,
+  "fields": {
+    "comision": "COM_12_2026",
+    "docente": 107,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 161,
+  "fields": {
+    "comision": "COM_13_2026",
+    "docente": 108,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 162,
+  "fields": {
+    "comision": "COM_14_2026",
+    "docente": 109,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 163,
+  "fields": {
+    "comision": "COM_15_2026",
+    "docente": 100,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 164,
+  "fields": {
+    "comision": "COM_16_2026",
+    "docente": 103,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 165,
+  "fields": {
+    "comision": "COM_17_2026",
+    "docente": 106,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 166,
+  "fields": {
+    "comision": "COM_18_2026",
+    "docente": 109,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 167,
+  "fields": {
+    "comision": "COM_19_2026",
+    "docente": 109,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 168,
+  "fields": {
+    "comision": "COM_20_2026",
+    "docente": 110,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 169,
+  "fields": {
+    "comision": "COM_39_2026",
+    "docente": 111,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 170,
+  "fields": {
+    "comision": "COM_40_2026",
+    "docente": 112,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 171,
+  "fields": {
+    "comision": "COM_41_2026",
+    "docente": 113,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 172,
+  "fields": {
+    "comision": "COM_42_2026",
+    "docente": 114,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 173,
+  "fields": {
+    "comision": "COM_43_2026",
+    "docente": 115,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 174,
+  "fields": {
+    "comision": "COM_44_2026",
+    "docente": 114,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 175,
+  "fields": {
+    "comision": "COM_45_2026",
+    "docente": 116,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 176,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 177,
+  "fields": {
+    "comision": "COM_46_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 178,
+  "fields": {
+    "comision": "COM_47_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 179,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 180,
+  "fields": {
+    "comision": "COM_34_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 181,
+  "fields": {
+    "comision": "COM_35_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 182,
+  "fields": {
+    "comision": "COM_48_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 183,
+  "fields": {
+    "comision": "COM_36_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 184,
+  "fields": {
+    "comision": "COM_49_2026",
+    "docente": 83,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 185,
+  "fields": {
+    "comision": "COM_50_2026",
+    "docente": 118,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 186,
+  "fields": {
+    "comision": "COM_26_2026",
+    "docente": 83,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 187,
+  "fields": {
+    "comision": "COM_51_2026",
+    "docente": 119,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 188,
+  "fields": {
+    "comision": "COM_27_2026",
+    "docente": 118,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 189,
+  "fields": {
+    "comision": "COM_52_2026",
+    "docente": 120,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 190,
+  "fields": {
+    "comision": "COM_53_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 191,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 121,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 192,
+  "fields": {
+    "comision": "COM_46_2026",
+    "docente": 111,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 193,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 120,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 194,
+  "fields": {
+    "comision": "COM_54_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 195,
+  "fields": {
+    "comision": "COM_38_2026",
+    "docente": 117,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 196,
+  "fields": {
+    "comision": "COM_49_2026",
+    "docente": 122,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 197,
+  "fields": {
+    "comision": "COM_50_2026",
+    "docente": 87,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 198,
+  "fields": {
+    "comision": "COM_25_2026",
+    "docente": 122,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 199,
+  "fields": {
+    "comision": "COM_26_2026",
+    "docente": 102,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 200,
+  "fields": {
+    "comision": "COM_51_2026",
+    "docente": 102,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 201,
+  "fields": {
+    "comision": "COM_27_2026",
+    "docente": 123,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 202,
+  "fields": {
+    "comision": "COM_28_2026",
+    "docente": 123,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 203,
+  "fields": {
+    "comision": "COM_52_2026",
+    "docente": 124,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 204,
+  "fields": {
+    "comision": "COM_29_2026",
+    "docente": 125,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 205,
+  "fields": {
+    "comision": "COM_53_2026",
+    "docente": 101,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 206,
+  "fields": {
+    "comision": "COM_30_2026",
+    "docente": 100,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 207,
+  "fields": {
+    "comision": "COM_31_2026",
+    "docente": 105,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 208,
+  "fields": {
+    "comision": "COM_46_2026",
+    "docente": 101,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 209,
+  "fields": {
+    "comision": "COM_47_2026",
+    "docente": 126,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 210,
+  "fields": {
+    "comision": "COM_32_2026",
+    "docente": 127,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 211,
+  "fields": {
+    "comision": "COM_33_2026",
+    "docente": 128,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 212,
+  "fields": {
+    "comision": "COM_34_2026",
+    "docente": 127,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 213,
+  "fields": {
+    "comision": "COM_35_2026",
+    "docente": 127,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 214,
+  "fields": {
+    "comision": "COM_48_2026",
+    "docente": 129,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 215,
+  "fields": {
+    "comision": "COM_54_2026",
+    "docente": 100,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 216,
+  "fields": {
+    "comision": "COM_36_2026",
+    "docente": 125,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 217,
+  "fields": {
+    "comision": "COM_37_2026",
+    "docente": 127,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 218,
+  "fields": {
+    "comision": "COM_55_2026",
+    "docente": 130,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 219,
+  "fields": {
+    "comision": "COM_38_2026",
+    "docente": 127,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 220,
+  "fields": {
+    "comision": "COM_56_2026",
+    "docente": 100,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 221,
+  "fields": {
+    "comision": "COM_57_2026",
+    "docente": 127,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.comisiondocente",
+  "pk": 222,
+  "fields": {
+    "comision": "COM_58_2026",
+    "docente": 127,
+    "rol": "Titular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 1,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 55,
+    "porcentaje_asistencia": "100.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 2,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 56,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 3,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 57,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 4,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 58,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 5,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 59,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 6,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 60,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 7,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 61,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 8,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 62,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 9,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 63,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 10,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 64,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 11,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 65,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 12,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 66,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 13,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 67,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 14,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 68,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 15,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 69,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 16,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 70,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 17,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 71,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 18,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 72,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 19,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 73,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 20,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 74,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 21,
+  "fields": {
+    "comision": "COM_59_2025",
+    "alumno": 75,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 22,
+  "fields": {
+    "comision": "COM_60_2025",
+    "alumno": 76,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 23,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 55,
+    "porcentaje_asistencia": "100.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 24,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 56,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 25,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 57,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 26,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 58,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 27,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 59,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 28,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 60,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 29,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 61,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 30,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 62,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 31,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 63,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 32,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 64,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 33,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 65,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 34,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 66,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 35,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 67,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 36,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 68,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 37,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 69,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 38,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 70,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 39,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 71,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 40,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 72,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 41,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 73,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 42,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 74,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 43,
+  "fields": {
+    "comision": "COM_LOGISTICA_61_2025",
+    "alumno": 75,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 44,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 76,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 45,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 131,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 46,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 132,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 47,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 133,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 48,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 134,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 49,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 135,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 50,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 136,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 51,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 137,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 52,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 138,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 53,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 139,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 54,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 140,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 55,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 141,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 56,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 142,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 57,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 143,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+},
+{
+  "model": "gestion.cursada",
+  "pk": 58,
+  "fields": {
+    "comision": "COM_DEPORTIVAS_62_2025",
+    "alumno": 144,
+    "porcentaje_asistencia": "85.00",
+    "situacion_final": "Regular"
+  }
+}
+]
