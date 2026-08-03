@@ -70,43 +70,64 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'sistema_alumnos.wsgi.application'
 
-# Database Configuration (Supports PostgreSQL & SQLite fallback)
-DB_ENGINE = os.environ.get('DB_ENGINE', 'postgresql')
-DB_NAME = os.environ.get('DB_NAME', 'sistema_alumnos_db')
-DB_USER = os.environ.get('DB_USER', 'postgres')
-DB_PASSWORD = os.environ.get('DB_PASSWORD', 'postgres')
-DB_HOST = os.environ.get('DB_HOST', 'localhost')
-DB_PORT = os.environ.get('DB_PORT', '5432')
-
-# Try testing connection if postgres configured, otherwise fallback to sqlite
+# Database Configuration (Supports DATABASE_URL, PostgreSQL & SQLite fallback)
+DATABASE_URL = os.environ.get('DATABASE_URL')
 USE_POSTGRES = False
-if DB_ENGINE in ['postgresql', 'django.db.backends.postgresql']:
+
+if DATABASE_URL:
     try:
-        import psycopg2
-        conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASSWORD, host=DB_HOST, port=DB_PORT, connect_timeout=2)
-        conn.close()
+        import urllib.parse as urlparse
+        url = urlparse.urlparse(DATABASE_URL)
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql',
+                'NAME': url.path[1:],
+                'USER': url.username,
+                'PASSWORD': url.password,
+                'HOST': url.hostname,
+                'PORT': url.port or 5432,
+            }
+        }
         USE_POSTGRES = True
     except Exception:
         USE_POSTGRES = False
 
-if USE_POSTGRES:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': DB_NAME,
-            'USER': DB_USER,
-            'PASSWORD': DB_PASSWORD,
-            'HOST': DB_HOST,
-            'PORT': DB_PORT,
+if not USE_POSTGRES:
+    DB_ENGINE = os.environ.get('DB_ENGINE', 'postgresql')
+    DB_NAME = os.environ.get('DB_NAME', 'sistema_alumnos_db')
+    DB_USER = os.environ.get('DB_USER', 'postgres')
+    DB_PASSWORD = os.environ.get('DB_PASSWORD', 'postgres')
+    DB_HOST = os.environ.get('DB_HOST', 'localhost')
+    DB_PORT = os.environ.get('DB_PORT', '5432')
+
+    if DB_ENGINE in ['postgresql', 'django.db.backends.postgresql']:
+        try:
+            import psycopg2
+            conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASSWORD, host=DB_HOST, port=DB_PORT, connect_timeout=2)
+            conn.close()
+            USE_POSTGRES = True
+        except Exception:
+            USE_POSTGRES = False
+
+    if USE_POSTGRES:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql',
+                'NAME': DB_NAME,
+                'USER': DB_USER,
+                'PASSWORD': DB_PASSWORD,
+                'HOST': DB_HOST,
+                'PORT': DB_PORT,
+            }
         }
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
+    else:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': BASE_DIR / 'db.sqlite3',
+            }
         }
-    }
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {
